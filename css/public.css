@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none; }
+
+img {
+    border: 0; }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+img {
+    border: 0; }

@@ -1,0 +1,264 @@
+html{
+  min-width:1200px;
+}
+/*头部开始*/
+.habit_nav{
+  width: 100%;
+  height: 150px;
+  //background: yellow;
+  padding-top:40px ;
+  .habit_nav_box{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    //background: red;
+    //overflow: hidden;
+    .habit_left{
+      float: left;
+      overflow: hidden;
+      li{
+        float: left;
+      }
+      .line{
+        width: 2px;
+        height: 50px;
+        background-color: #929292;
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: 10px;
+      }
+    }
+    .habit_right{
+      float: right;
+      //background: black;
+      width: auto;
+      height: 100%;
+      li{
+        float: left;
+        margin-left: 40px;
+      }
+      .title_word{
+        width: 114px;
+        height: 44px;
+        a{
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: url("../images/backimg_10.png");
+          line-height: 44px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+/*头部结束*/
+
+/*banner 开始 0.635*/
+.habit_banenr{
+  //505
+  width: 100%;
+  height: 374px;
+  margin:0 auto;
+  background: red;
+  position: relative;
+  //左边按钮
+  .habit_banenr_left{
+    //200 430
+    width: 127px;
+    height: 273px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 8;
+    background: url("../images/bous_16.png");
+    background-size:cover ;
+    li{
+      padding-left: 38px;
+      //padding-top: 6px;
+      width: 178px;
+      height: 38px;
+      z-index: 10;
+      position: absolute;
+      background: url("../images/bour1-5.png") no-repeat left;
+      background-size: 35px 35px;
+      a{
+        color: #ffffff;
+        p{
+          font-size: 14px;
+        }
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+    .habit_o{
+      left: 30px;
+      top: 8px;
+    }
+    .habit_t{
+      left: 81px;
+      top: 65px;
+    }
+    .habit_w{
+       left: 100px;
+       top: 122px;
+     }
+
+    .habit_f{
+      left: 80px;
+      top: 180px;
+    }
+    .habit_s{
+      left: 30px;
+      top: 235.7px;
+    }
+
+  }
+  //导航条样式
+  .habit_banenr_nav{
+    width: 100%;
+    //88px
+    height: 56px;
+    background: rgba(0,0,0,0.6);
+    background: #000\9;/*IE*/
+    filter: alpha(opacity=60);/*IE*/
+    position: absolute;
+    top: 31px;
+    left: 0;
+    padding-left:15%;
+    li{
+      height: 22px;
+      display: list-item;
+      float: left;
+      color: #fff;
+      line-height: 24px;
+      margin-top: 17px;
+      margin-left: 25px;
+      background: url("../images/slant_03.png")no-repeat;
+      vertical-align:top;
+      padding-left: 30px;
+      a{
+        color: #ffffff;
+      }
+      .active{
+          color: #fdfa23;
+      }
+    }
+
+  }
+  //图片内容
+  .habit_banenr_box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    li{
+      position: absolute;
+      left: 0;
+      top:0;
+      width: 100%;
+      height: 100%;
+     display: none;
+      img{
+        width: 100%;
+        //height: 505px;
+      }
+    }
+    .B_active{
+      display: block;
+    }
+
+  }
+}
+/*banner 结束*/
+
+/*导航条开始*/
+.nav_habit{
+  width: 100%;
+  height: 80px;
+  background: #f0f0f0;
+  .nav_habit_box{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    li{
+      width: 133px;
+      height: 100%;
+      float: left;
+      text-align: center;
+      line-height: 80px;
+      position: relative;
+      background: url("../images/xio2-1.png")no-repeat 87% 37px;;
+      &:hover{
+        border-bottom: 4px solid #743481;
+        box-sizing: border-box;
+      }
+      //overflow: hidden;
+      .ComboBox{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #333;
+        text-align: center;
+        line-height: 40px;
+      }
+      a{
+        color: #000;
+        font-size: 18px;
+        //font-weight: bol;
+      }
+      .actives{
+        color: #743481;
+      }
+    }
+    .active{
+      border-bottom: 4px solid #743481;
+      box-sizing: border-box;
+    }
+  }
+}
+
+
+
+
+
+
+/*内容部分开始*/
+.habit_content{
+  width: 100%;
+  height: 476px;
+  .habit_content_box{
+    margin: 20px auto;
+    width: 1200px;
+    height: 430px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.habit_currency{
+  width: 1200px;
+  height: 160px;
+  margin: 0 auto;
+  background: url("../images/common_03.png")no-repeat center;
+  h1{
+    font-size: 64px;
+    font-family:"FZLTCHJW";
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+  }
+  h6{
+    font-size: 21px;
+    color: #fff;
+    font-family:"Times New Roman";
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  
+}
